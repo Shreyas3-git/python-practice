@@ -6,7 +6,8 @@
 # similar to string = list_name[start_index:end_index]
 # when we are doing slicing with start and end index is negative
 # start index will always be lesser than end index ex- start = -3,end = -1
-marks = [87,64,33,95,76]
+marks = [87,64,33,95,76,"SHreys"]
+print(marks)
 print(marks[1:4])#here list_name[start_index:end_index] list consider starting index and end_index-1
 marks = [87,64,33,95,76]
 print(marks[1:]) #If end_index is missing list consider n-1 is the last index in this case
